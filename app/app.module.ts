@@ -1,22 +1,25 @@
-import { NgModule, NgModuleFactoryLoader, NO_ERRORS_SCHEMA } from "@angular/core";
-import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { NgModule } from '@angular/core';
+import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 
-import { AppRoutingModule } from "./app-routing.module";
-import { AppComponent } from "./app.component";
+import { navigatableComponents, routes } from './app.routing';
+import { AppComponent } from './app.component';
+import { NativeScriptFormsModule, NativeScriptHttpModule, NativeScriptRouterModule } from 'nativescript-angular';
+import { NativeScriptUIListViewModule } from 'nativescript-ui-listview/angular';
+
 
 @NgModule({
-    bootstrap: [
-        AppComponent
-    ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        NativeScriptFormsModule,
+        NativeScriptHttpModule,
+        NativeScriptRouterModule,
+        NativeScriptRouterModule.forRoot(routes),
+        NativeScriptUIListViewModule
     ],
     declarations: [
-        AppComponent
+        AppComponent,
+        ...navigatableComponents
     ],
-    schemas: [
-        NO_ERRORS_SCHEMA
-    ]
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

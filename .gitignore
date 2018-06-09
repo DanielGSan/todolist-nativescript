@@ -44,3 +44,6 @@ typings/**/*
 
 # Webstorm IDE
 .idea/
+
+# Js compiled
+app/**/*.js
