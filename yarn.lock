@@ -2338,6 +2338,13 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
+kinvey-nativescript-sdk@3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/kinvey-nativescript-sdk/-/kinvey-nativescript-sdk-3.11.1.tgz#73417f68b9e916bbc12e0d986c28f8c4bd6089fc"
+  dependencies:
+    nativescript-sqlite "~1.1.11"
+    rxjs "~5.5.5"
+
 lazy@1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/lazy/-/lazy-1.0.11.tgz#daa068206282542c088288e975c297c1ae77b690"
@@ -2702,12 +2709,26 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-accelerometer@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/nativescript-accelerometer/-/nativescript-accelerometer-2.0.1.tgz#eeeeeb0e2e547dc31b72ba596b6887c3a46c2761"
+
 nativescript-angular@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/nativescript-angular/-/nativescript-angular-6.0.0.tgz#e615db7792985a90d289dd6a19053272b3e617b7"
   dependencies:
     nativescript-intl "^3.0.0"
     reflect-metadata "^0.1.8"
+
+nativescript-background-http@3.2.7:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/nativescript-background-http/-/nativescript-background-http-3.2.7.tgz#cfa1ecd3af7567883a9ad67d72305b7c69da4931"
+
+nativescript-camera@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/nativescript-camera/-/nativescript-camera-4.0.2.tgz#3d8b6aad02257476a377d5925b7d63d396ef9040"
+  dependencies:
+    nativescript-permissions "^1.2.3"
 
 nativescript-dev-typescript@0.7.1:
   version "0.7.1"
@@ -2730,6 +2751,16 @@ nativescript-dev-webpack@0.12.0:
     shelljs "0.6.0"
     tapable "1.0.0"
 
+nativescript-fresco@3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/nativescript-fresco/-/nativescript-fresco-3.0.7.tgz#66fe36c7b7c749ddaa9e78f95e093d915a3ea5f6"
+
+nativescript-geolocation@4.2.6:
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/nativescript-geolocation/-/nativescript-geolocation-4.2.6.tgz#4c1a7c8bd9205d7cf29dee2cb7abd45210203942"
+  dependencies:
+    nativescript-permissions "~1.2.3"
+
 nativescript-hook@0.2.4, nativescript-hook@^0.2.0:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/nativescript-hook/-/nativescript-hook-0.2.4.tgz#e591e1d9ad415a8b4f3309c15731577af44a3dd4"
@@ -2737,23 +2768,86 @@ nativescript-hook@0.2.4, nativescript-hook@^0.2.0:
     glob "^6.0.1"
     mkdirp "^0.5.1"
 
-nativescript-intl@^3.0.0:
+nativescript-intl@3.0.0, nativescript-intl@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/nativescript-intl/-/nativescript-intl-3.0.0.tgz#82ee9be7d377172b3c4295734723037628e186a7"
+
+nativescript-iqkeyboardmanager@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/nativescript-iqkeyboardmanager/-/nativescript-iqkeyboardmanager-1.3.0.tgz#a51235e27a170d585bdd1a100d024f8fcede13a2"
+
+nativescript-permissions@^1.2.3, nativescript-permissions@~1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/nativescript-permissions/-/nativescript-permissions-1.2.3.tgz#e3e65545f98fe488dd5578f7ff90ebae3088e700"
+
+nativescript-social-share@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/nativescript-social-share/-/nativescript-social-share-1.5.0.tgz#b4ed85e37694916379073c092562abf897215633"
+
+nativescript-sqlite@~1.1.11:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/nativescript-sqlite/-/nativescript-sqlite-1.1.11.tgz#c265a3f4e228d94b07fd9b9ac6306ae52508e749"
 
 nativescript-theme-core@1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/nativescript-theme-core/-/nativescript-theme-core-1.0.4.tgz#cf2880c7fbf2fe5f43e2235d309750790803efe1"
 
+nativescript-ui-autocomplete@3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/nativescript-ui-autocomplete/-/nativescript-ui-autocomplete-3.7.0.tgz#c07182197e0a136dbb7c22ecb6545d4163629828"
+  dependencies:
+    nativescript-ui-core "^1.0.0"
+
+nativescript-ui-autocomplete@^3.5.0:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/nativescript-ui-autocomplete/-/nativescript-ui-autocomplete-3.7.1.tgz#fca9cdfcd8d46401fdeb916a5487fe0bf8d85fc8"
+  dependencies:
+    nativescript-ui-core "^1.0.0"
+
+nativescript-ui-calendar@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/nativescript-ui-calendar/-/nativescript-ui-calendar-3.6.0.tgz#6020e4e743e6f14d11ce61c40d3318d6f6a19d7e"
+  dependencies:
+    nativescript-ui-core "^1.0.0"
+
+nativescript-ui-chart@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/nativescript-ui-chart/-/nativescript-ui-chart-3.6.1.tgz#a92a5624964db70ac12eaaf8741b7127e63a4f32"
+  dependencies:
+    nativescript-ui-core "^1.0.0"
+
 nativescript-ui-core@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/nativescript-ui-core/-/nativescript-ui-core-1.0.1.tgz#4767717b926ad61d250a3a80852a6058816e7dd9"
+
+nativescript-ui-dataform@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/nativescript-ui-dataform/-/nativescript-ui-dataform-3.6.0.tgz#4d01e6d7d4014dc176aa35a547034585e3845510"
+  dependencies:
+    nativescript-ui-autocomplete "^3.5.0"
+    nativescript-ui-core "^1.0.0"
+
+nativescript-ui-gauge@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/nativescript-ui-gauge/-/nativescript-ui-gauge-3.6.0.tgz#06b8ecc5bb11063ae7467cab209728b912c14eb2"
+  dependencies:
+    nativescript-ui-core "^1.0.0"
 
 nativescript-ui-listview@3.5.7:
   version "3.5.7"
   resolved "https://registry.yarnpkg.com/nativescript-ui-listview/-/nativescript-ui-listview-3.5.7.tgz#5d59e3d7a38ba53510cbeff24a2e0ebd0045a87e"
   dependencies:
     nativescript-ui-core "^1.0.0"
+
+nativescript-ui-sidedrawer@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/nativescript-ui-sidedrawer/-/nativescript-ui-sidedrawer-4.1.0.tgz#2ef8ce583d3fa99202bb4f34c0b602a4abddab26"
+  dependencies:
+    nativescript-ui-core "^1.0.0"
+
+nativescript-vue@1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/nativescript-vue/-/nativescript-vue-1.3.1.tgz#ab156e9ab6fa23f1172f98d0e2decf7247b50c7c"
 
 nativescript-worker-loader@0.9.0:
   version "0.9.0"
@@ -3705,6 +3799,12 @@ rxjs@6.2.0, rxjs@^6.0.0, rxjs@^6.1.0:
   dependencies:
     tslib "^1.9.0"
 
+rxjs@~5.5.5:
+  version "5.5.11"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.11.tgz#f733027ca43e3bec6b994473be4ab98ad43ced87"
+  dependencies:
+    symbol-observable "1.0.1"
+
 safe-buffer@5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
@@ -4082,6 +4182,10 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
+symbol-observable@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
+
 tapable@1.0.0, tapable@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.0.0.tgz#cbb639d9002eed9c6b5975eb20598d7936f1f9f2"
@@ -4130,6 +4234,10 @@ tns-core-modules@4.1.0:
   resolved "https://registry.yarnpkg.com/tns-core-modules/-/tns-core-modules-4.1.0.tgz#f838f0e040b9cdef8d361ba7392dfece51762fc2"
   dependencies:
     tns-core-modules-widgets "4.1.0"
+
+tns-platform-declarations@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/tns-platform-declarations/-/tns-platform-declarations-4.1.0.tgz#58c6deca64e4715850be2a8897db58003fd06bf7"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"

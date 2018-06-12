@@ -1,11 +1,12 @@
-import { NgModule } from '@angular/core';
-import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
+import { NgModule } from "@angular/core";
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { NativeScriptHttpModule } from "nativescript-angular/http";
+import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { NativeScriptRouterModule } from "nativescript-angular/router";
+import { NativeScriptUIListViewModule } from "nativescript-ui-listview/angular";
 
-import { navigatableComponents, routes } from './app.routing';
-import { AppComponent } from './app.component';
-import { NativeScriptFormsModule, NativeScriptHttpModule, NativeScriptRouterModule } from 'nativescript-angular';
-import { NativeScriptUIListViewModule } from 'nativescript-ui-listview/angular';
-
+import { AppComponent } from "./app.component";
+import { routes, navigatableComponents } from "./app.routing";
 
 @NgModule({
     imports: [
